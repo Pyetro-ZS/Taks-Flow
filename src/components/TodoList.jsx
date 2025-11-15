@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { List } from './List';
-import { Input } from './input';
+import { Input } from './Input';
 import { Form } from './Form';
 import { Button } from './Button';
 import styles from '../styles/TodoList.module.css';
@@ -65,4 +65,5 @@ export function TodoList() {
             </div>
         </>
     );
+
 }
